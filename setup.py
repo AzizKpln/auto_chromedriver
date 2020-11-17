@@ -3,9 +3,9 @@ from setuptools import setup
 
 setup(
     name="auto_chromedriver",
-    version="1.0.0",
+    version="1.0.1",
     packages=["auto_chromedriver"],
-    install_requires=["requests","subprocess","string"],
+    install_requires=["requests",],
     url="https://github.com/AzizKpln/auto_chromedriver",
     license="GPL-3.0",
     author="Aziz Kaplan",
