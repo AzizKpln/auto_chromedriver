@@ -1,10 +1,10 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 
 setup(
     name="auto_chromedriver",
-    version="1.0.1",
-    packages=["auto_chromedriver"],
+    version="0.0.1",
+    packages=find_packages(),
     install_requires=["requests",],
     url="https://github.com/AzizKpln/auto_chromedriver",
     license="GPL-3.0",

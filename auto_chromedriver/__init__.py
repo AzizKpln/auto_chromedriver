@@ -36,6 +36,3 @@ class auto_chromedriver_installer:
 	def chromium_version(self):
 		self.chromedriver_version()
 		print(self.current_chromedriver_version)
-
-
-
