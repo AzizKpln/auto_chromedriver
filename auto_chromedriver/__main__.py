@@ -35,5 +35,5 @@ class auto_chromedriver_installer:
 			code.write(file.content)
 
 aci=auto_chromedriver_installer()
-aci.install()
+    
 
