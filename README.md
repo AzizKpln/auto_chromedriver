@@ -1,5 +1,5 @@
 # INSTALLATION
-// pip3 install auto_chromedriver 
+> pip3 install auto_chromedriver 
 
 # USAGE
 
