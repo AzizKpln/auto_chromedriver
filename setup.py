@@ -3,16 +3,17 @@ from setuptools import setup,find_packages
 
 setup(
     name="auto_chromedriver",
-    version="0.0.1",
+    version="0.1.4",
     packages=find_packages(),
-    install_requires=["requests",],
+    install_requires=["requests","bs4",],
     url="https://github.com/AzizKpln/auto_chromedriver",
     license="GPL-3.0",
     author="Aziz Kaplan",
     author_email="AzizKpln@protonmail.com",
+    keywords=["chromedriver","auto_chromedriver","selenium_chromedriver","chromedriverinstall","chromedriver_install"],
     description="""
-                Auto chromedriver installer. Most of selenium projects are not opening because of chromedriver version issue.
-		with 2 codes you can fix that error without making an effort.
+        Auto chromedriver installer. Most of selenium projects does not start  because of the chromedriver version issue.
+		with 2 codes you can fix that error without making any efforts.
                 
 		For the usage and more information check out the README.""",
     long_description=open("README.md").read(),

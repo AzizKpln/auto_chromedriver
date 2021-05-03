@@ -1,17 +1,24 @@
 # INSTALLATION
-> pip3 install auto_chromedriver 
+// pip3 install auto_chromedriver 
 
 # USAGE
 
-> Calling The Module
+> Call The Module
 
-* import auto_chromedriver
-* ac=auto_chromedriver.auto_chromedriver_installer()
+```
+import auto_chromedriver
+ac=auto_chromedriver.auto_chromedriver_installer()
+ac.install()
+```
+### ac.install() installs the chromedriver for your system instantly
 
-> To install chromedriver automatically
 
-* ac.install()
+```
+import auto_chromedriver
+ac=auto_chromedriver.auto_chromedriver_installer()
+ac.log()
+```
 
-> To see the version of chromium
+### ac.log() is used for printing the information of chromedriver
 
-* ac.chromium_version()
+# ![](result.PNG)
